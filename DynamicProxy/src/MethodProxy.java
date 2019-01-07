@@ -29,7 +29,7 @@ public class MethodProxy implements InvocationHandler {
 		// 如远程http调用
 		// 如远程方法调用（rmi)
 		// ....
-		System.out.println(method.getReturnType().toString());
+		System.out.println(method.getReturnType().toGenericString());
 		return null;
 	}
 
